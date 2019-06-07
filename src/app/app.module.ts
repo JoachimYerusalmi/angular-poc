@@ -7,6 +7,7 @@ import { NavigationComponent } from './shared-components/navigation/navigation.c
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {MatButtonModule, MatToolbarModule} from '@angular/material';
 import {AppRoutingModule} from "./app-routing.module";
+import { RootStoreModule } from './root-store/root-store.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {AppRoutingModule} from "./app-routing.module";
     FlexLayoutModule,
     MatToolbarModule,
     MatButtonModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RootStoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
